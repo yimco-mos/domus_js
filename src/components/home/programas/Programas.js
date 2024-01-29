@@ -17,17 +17,17 @@ export const Programas = () => {
             <div className='t_programa'>
 
               <div className='logo_programa'>
-              <img />
+              <img src={src_} />
               </div>
 
               <div className='tit_programa'>
 
-              <h5></h5>
+              <h5>{t_programa}</h5>
 
               </div>
 
               <div className='desc_programa'>
-              
+
 
               </div>
 
