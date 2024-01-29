@@ -1,0 +1,73 @@
+footer {
+  bottom: 0;
+  margin-top: 10px;
+  max-width: 1400px;
+  height: 350px;
+  padding: 0.125rem 0;
+  margin: 10px auto;
+}
+
+.content-footer {
+  justify-content: left;
+  align-items: center;
+  padding: .5rem;
+  @apply bg-neutral-950;
+}
+
+
+@media (max-width: 800px) {
+  .content-footer {
+    width: 100%;
+    justify-content: left;
+    padding: 0;
+    margin: 0;
+    height: 650px;
+    max-width: 800px;
+    display: flex;
+  }
+
+  .t_txt_footer{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+
+  }
+
+  .servicios_info_footer {
+    width: 100%;
+    display: flex;
+  }
+
+  .servicios_footer ul {
+    display: block;
+        margin: 0;
+        width: 100%;
+  }
+
+  .servicios_footer ul li{
+    line-height: 2.5;
+    font-size: 1.3rem;
+  }
+  
+
+  .info_domus_footer {
+    display: flex;
+    width: 50%;
+  }
+
+  .redes_footer {
+    gap: 3px;
+    font-size: 18px;
+    width: 80%;
+  }
+
+  .info_footer {
+        display: flex;
+  }
+
+  .info_adi{
+    margin: 0;
+    font-size: 12px;
+  }
+
+}

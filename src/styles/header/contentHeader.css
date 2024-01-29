@@ -1,0 +1,101 @@
+header {
+    z-index: 1000;
+    margin: 0;
+    max-width: 1600px;
+    max-height: 120px;
+    width: 100%;
+    position: fixed;
+    padding: 0;
+    top: 0;
+}
+
+.logo-domus-header {
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-image: url("/logos/logodomus.jpg");
+}
+
+.content-all-header {
+
+    max-width: 1400px;
+    display: flex;
+    min-height: 70px;
+    margin: 0 auto;
+    padding: 0 .5rem;
+    align-items: center;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    @apply bg-indigo-50;
+
+}
+
+.nav-header {
+    display: flex;
+    margin: 0;
+    padding: .5 rem;
+}
+
+.nav-header ul {
+
+    display: flex;
+
+    margin: 0;
+    justify-content: center;
+}
+
+
+.nav-header ul li {
+    margin: .5rem;
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: all .3s ease-in-out;
+    font-family: 'Roboto Slab', serif;
+    @apply text-neutral-950;
+
+}
+
+
+.logo-domus {
+    width: 20px;
+    z-index: 1000;
+    height: 60px;
+
+}
+
+
+.nav-header ul li:hover {
+    @apply text-amber-400;
+
+}
+
+
+.subheader{
+@apply bg-orange-600;
+width:100%;
+max-width:1400px;
+height:30px;
+
+}
+
+.contacto_subh{
+
+    width:70%;
+    
+}
+
+.contactatanos_subh{
+width:30%;
+
+
+
+}
+
+
+.info_subh{
+
+}
