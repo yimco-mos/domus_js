@@ -29,7 +29,10 @@ export const Infundador = () => {
   };
 
   return (
-    <div className="fundador">
+    <div className="fundador flex md:w-400 ">
+   
+   
+   
       <div className="image_fun">
         <div className="image_fundador"></div>
       </div>
@@ -46,6 +49,7 @@ export const Infundador = () => {
           <button className="bg-orange-600 btn_fun" onClick={handleNext}><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/more-than.png" alt="more-than"/></button>
         </div>
       </div>
+
     </div>
   );
 };

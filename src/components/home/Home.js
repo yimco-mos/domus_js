@@ -1,10 +1,12 @@
 import React from "react";
 import { Collage } from "./collage/Collage";
 import { Programa } from "./programas/Programa";
-import { Oracion } from "./programas/oracion/Oracion";
+import { Oracion } from "./oracion/Oracion";
 import { Infundador } from "./fundador/Infundador";
 import { Formulario } from "./formulario/Formulario";
+import { Misionvision } from "./misionvision/Misionvision";
 import "styles/home/home.css";
+import { Eventos } from "./eventos/Eventos";
 export const Home = () => {
   return (
     <section className="home_section">
@@ -29,6 +31,18 @@ export const Home = () => {
 
         <section className="formulario_voluntariado">
         <Formulario />
+      </section>
+
+
+      <section className="eventos_sec">
+    <Eventos/>
+
+      </section>
+
+
+
+      <section className="mision_vision">
+        <Misionvision />
       </section>
 
 

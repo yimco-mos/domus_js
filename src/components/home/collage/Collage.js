@@ -8,7 +8,7 @@ export const Collage = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [
     "efataportada.jpg",
-    "pippo.jpg",
+    "show.jpg",
     "imawin.jpg",
     "santarosa.jpg",
   ];

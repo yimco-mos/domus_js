@@ -9,13 +9,17 @@
       padding: 0;
     margin: 0 auto;
     overflow: hidden;
+
 }
   
 
 .collage-images {
     width: 100%;
     height: 100%;
+    max-width: 1400px;
+
     position: relative;
+    overflow: hidden;
 
 }
 

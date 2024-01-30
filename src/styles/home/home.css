@@ -9,51 +9,53 @@
 
 .fundador_sec {
   display: flex;
-
   width: 100%;
   max-width: 1400px;
   height: 100%;
 }
 
 .fundador {
-  display: flex;
+  gap: 10%;
   width: 100%;
+  max-width: 800px;
   height: 100%;
-  justify-content: space-between;
-  max-width: 850px;
-  max-height: 450px;
   margin: 0 auto;
-  padding: 10px;
   border-radius: 30px;
-  overflow: hidden;
   @apply bg-neutral-600;
 }
 
 .image_fun {
-  width: 18rem;
-  padding: 0.125rem;
-  display: flex;
+  height: 100%;
+  padding: 1rem;
   max-width: 300px;
-  margin: 0 auto;
-  justify-content: center;
 }
 
 .image_fundador {
+  background-image: url("/targetas/fundador.jpg");
   margin: 0 auto;
-  width: 100%;
-  height: 100%;
-  background-position: center;
-  background-size: contain;
+  width: 350px;
+  height: 350px;
+  background-position: top; 
+  background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
-  background-image: url("/targetas/fundador.jpg");
+
+}
+
+
+.eventos_sec{
+  width: 100%;
+  max-width: 1400px;
+  height: 100%;
+  justify-content: center;
 }
 
 .infundador {
   width: 100%;
+  font-size: .5rem;
   max-width: 400px;
   height: 450px;
-
+  padding: .5rem;
   @apply text-neutral-950;
   justify-content: space-between;
 }
@@ -103,11 +105,6 @@
     max-width: 800px;
   }
 
-  .fundador {
-    display: block;
-    width: 400px;
-    height: 800px;
-  }
 
   .sec_programa {
     width: 400px;
