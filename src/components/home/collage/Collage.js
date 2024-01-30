@@ -7,9 +7,9 @@ import 'styles/home/collage.css';
 export const Collage = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [
-    "IMG-20240124-WA0013.jpg",
-    "IMG-20240124-WA0070.jpg",
-    "IMG-20240124-WA0068.jpg",
+    "efata.jpg",
+    "pippo.jpg",
+    "imawin.jpg",
     "santarosa.jpg",
   ];
 
@@ -32,6 +32,8 @@ export const Collage = () => {
 
 </div>
 
+    
+
       <Carousel
         showArrows={false}
         showStatus={false}
@@ -45,7 +47,7 @@ export const Collage = () => {
       >
         {images.map((image, index) => (
           <div key={index}>
-            <img src={`/proyecto/${image}`} alt={`Image ${index}`} />
+            <img src={`/carrusel/${image}`} alt={`Image ${index}`} />
           </div>
         ))}
       </Carousel>

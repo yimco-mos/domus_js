@@ -1,0 +1,60 @@
+.tag_programa_container {
+    width: 100%;
+    max-width:800px;
+    height: 650px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto; 
+}
+
+
+.tag_prog {
+    width: 320px;
+    height: 350px;
+    background: red;
+    margin: 10px;
+}
+.desc_programa{
+    width: 100%;
+    max-width: 300px;
+}
+
+.desc_programa p {
+    font-size: .6rem;
+}
+
+
+.img_programa {
+    width: 150px;
+}
+
+
+.logo_programa{
+    width: 50px;
+
+
+}
+.tag_programa-button {
+    @apply bg-orange-600;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    padding: 10px;
+    
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 1;
+    @apply bg-gray-200;
+}
+
+
+
+
+.tag_programa-button:first-child {
+    left: 0;
+}
+
+.tag_programa-button:last-child {
+    right: 0;
+}
