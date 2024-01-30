@@ -1,6 +1,7 @@
 import React from "react";
 import { Collage } from "./collage/Collage";
 import { Programa } from "./programas/Programa";
+import { Oracion } from "./programas/oracion/Oracion";
 import { Infundador } from "./fundador/Infundador";
 import { Formulario } from "./formulario/Formulario";
 import "styles/home/home.css";
@@ -14,6 +15,12 @@ export const Home = () => {
       <section className="fundador_sec">
         <Infundador />
       </section>
+
+    
+      <section className="oracion_sec">
+    <Oracion />
+
+    </section>
 
         <div className="sec_programas justify-center">
           <Programa/>

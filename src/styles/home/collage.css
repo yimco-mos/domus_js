@@ -1,8 +1,4 @@
-h1{
-    font-weight: 600;
-    font-size: 5.5rem;
 
-}
 
 
 
@@ -25,7 +21,7 @@ h1{
 
 
 .collage-images img{
-    filter: sepia(20%) contrast(150%);
+    filter: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
         
 }
 

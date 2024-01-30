@@ -38,8 +38,8 @@ export const ProgramaComponent = ({
           <p>{descrip_programa}</p>
         </div>
 
-        <div className='txt_ubi'>
-        <p><b>ubicacion :</b> {ubi_programa}</p>
+        <div className='txt_ubi  '>
+        <p className='text-neutral-950'><b >ubicacion :</b> {ubi_programa}</p>
 
         </div>
       </div>

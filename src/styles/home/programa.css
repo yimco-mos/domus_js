@@ -66,6 +66,7 @@
     height: 73%;
 }
 .txt_ubi{
+
     font-size: .6rem;
     overflow-wrap: break-word;
     width: 220px;   
@@ -74,7 +75,7 @@
 }
 
 .txt_prog p {
-
+    @apply text-neutral-950;
     text-transform: capitalize;
     text-justify: auto;
 

@@ -1,0 +1,49 @@
+.oracion {
+  width: 100%;
+  max-width: 800px;
+  height: 100%;
+  border-radius: 6px;
+  margin: 0 auto;
+  @apply bg-neutral-50;
+}
+
+.img_vrg {
+  max-width: 400px;
+  height: 100%;
+}
+
+.virgen {
+  background-image: url("/targetas/virgen.jpg");
+  width: 300px;
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;;
+}
+
+.oracion_txt {
+  padding: 1rem;
+  height: 100%;
+  max-width: 400px;
+  font-size: 1rem;
+}
+
+.oracion_txt h3 {
+  padding: 1rem;
+  font-family: "Playfair Display";
+  font-size: 1.2rem;
+}
+
+.oracion_txt p {
+  @apply text-neutral-950;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+@media (max-width: 800px) {
+  .oracion {
+    display: block;
+    max-width: 400px;
+    justify-content: center;
+  }
+}

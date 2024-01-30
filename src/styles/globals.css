@@ -2,9 +2,8 @@
 
 font-family: 'Atkinson Hyperlegible';
 font-family: 'Montserrat', sans-serif;
-font-family: 'Open Sans', sans-serif;
 font-family: 'Playfair Display';
-font-family: 'Poppins', sans-serif;
+font-family: ;
 */
 
 @tailwind base;
@@ -14,20 +13,33 @@ font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
+
 
 
 h1{
     z-index: 100;
     font-family: 'Playfair Display';
     filter: contrast(200%);
-    color: aquamarine
+    font-weight: 600;
+    font-size: 5.5rem;
+    @apply text-neutral-50;
+
 }
+
 
 
 
 body {
 
+    font-family: 'Poppins', sans-serif;
     @apply bg-neutral-400;
-    color: #fff;
+}
+
+body p{
+    @apply text-neutral-50;
+    font-family: 'Open Sans', sans-serif;
+
+
 }
