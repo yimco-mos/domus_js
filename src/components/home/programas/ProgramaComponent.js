@@ -8,29 +8,40 @@ export const ProgramaComponent = ({
   ubi_programa,
 }) => {
   return (
-    <div className="tag_prog block text-neutral-700 p-3 bg-neutral-50 m-2" >
-     
-     
+    <div className='tag_prog'>
+
       <div className="img_programa">
-        <img src={src_img_programa} alt="Imagen del programa" /> {/* Utiliza la ruta de la imagen */}
+      <img 
+          src={src_img_programa} 
+          alt="Imagen del programa" 
+          style={{ objectFit: 'cover', width: '100%', height: '100%' }} 
+        />
       </div>
 
       <div className="info_programa flex">
-      <div className="logo_programa">
-          <img src={src_logo_programa} alt="Logo del programa" /> {/* Utiliza la ruta del logo */}
+        <div className="logo_programa">
+          <img src={src_logo_programa} 
+          style={{ objectFit: 'cover', width: '100%', height: '100%',background:'cover' }} 
+          
+          alt="Logo del programa" />
         </div>
         <div className="t_programa">
           <h5>{t_programa}</h5>
         </div>
-
-       
       </div>
 
-      <div className="desc_programa block">
-        <span>
+
+
+
+      <div className="desc_programa  block">
+        <div  className='txt_prog'>
           <p>{descrip_programa}</p>
-        </span>
-        <span>{ubi_programa}</span>
+        </div>
+
+        <div className='txt_ubi'>
+        <p><b>ubicacion :</b> {ubi_programa}</p>
+
+        </div>
       </div>
     </div>
   );

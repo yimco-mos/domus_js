@@ -13,23 +13,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <>
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
-          rel="stylesheet"
-        />
-        <link rel="shortcut icon" href="/logos/logodomus.jpg" />
+     <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com"/> 
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital@1&family=Montserrat&family=Open+Sans:ital@1&family=Playfair+Display&family=Poppins&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="/logos/logodomus.jpg"/>
 
-        <link
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-          rel="stylesheet"
-          integrity="sha512-CqHIvpN5AY8fr63vRfmbA6G5tJX/ugcagZBg0MmY2BV2JUxqFEE0AdhX/xBBZ59nhfFlP6+fHKpN7hqDOy4FCg=="
-          crossOrigin="anonymous"
-          referrerPolicy="no-referrer"
-        />
-      </head>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" integrity="sha512-CqHIvpN5AY8fr63vRfmbA6G5tJX/ugcagZBg0MmY2BV2JUxqFEE0AdhX/xBBZ59nhfFlP6+fHKpN7hqDOy4FCg=="  referrerpolicy="no-referrer"/>
+</head>
       <html lang="es">
         <body className={inter.className}>
           <Header />

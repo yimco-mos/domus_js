@@ -7,7 +7,7 @@ import 'styles/home/collage.css';
 export const Collage = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [
-    "efata.jpg",
+    "efataportada.jpg",
     "pippo.jpg",
     "imawin.jpg",
     "santarosa.jpg",
@@ -23,11 +23,11 @@ export const Collage = () => {
   }, []);
 
   return (
-    <div className="collage-images">
+    <div className="collage-images ">
 
 <div className="t_carrusel ">
 
-<h1>Domus</h1>
+<h1 >Domus</h1>
 <h3>Colombia</h3>
 
 </div>

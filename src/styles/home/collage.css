@@ -20,9 +20,14 @@ h1{
     width: 100%;
     height: 100%;
     position: relative;
-    filter: contrast(50%);
+
 }
 
+
+.collage-images img{
+    filter: sepia(20%) contrast(150%);
+        
+}
 
 .t_carrusel{
     position: absolute;

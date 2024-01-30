@@ -4,7 +4,7 @@ export const programa = {
       "img_prog": "/programas/sangabriel.jpg",
       "logo_prog": "/logos/sangabriel_logo.jpg",
       "titulo": "DOMUS SAN GABRIEL: (Sede administrativa)",
-      "descripcion": "En esta Domus se desarrolla el convenio “DEL CUIDADO DE LA DIGNIDAD HUMANA” con la Arquidiócesis de Bogotá. También se atiende población vulnerable por psicología, tenemos comedor y ropero social, el taller “AGUJAS DE ESPERANZA DOMUS”, refuerzo escolar y coro infantil “UN CANTO DE ESPERANZA DOMUS” entre otros apoyos a la comunidad.",
+      "descripcion": "desarrollamos el convenio “DEL CUIDADO DE LA DIGNIDAD HUMANA” con la Arquidiócesis de Bogotá, se atiende población vulnerable por psicología, tenemos comedor y ropero social, taller “AGUJAS DE ESPERANZA DOMUS”, refuerzo escolar y coro infantil “UN CANTO DE ESPERANZA DOMUS” entre otros apoyos a la comunidad.",
       "ubicacion": "CRA.56 #17-44- Puente Aranda"
     }
   ],
@@ -23,7 +23,7 @@ export const programa = {
       "logo_prog": "/logos/santarita_logo.jpg",
       "titulo": "DOMUS SANTA RITA: (Hogar de paso)",
       "descripcion": "Se atienden madres gestantes y mujeres que estén atravesando situaciones de violencia intrafamiliar.",
-      "direccion": "Cra.59 # 17ª11 Puente Aranda"
+      "ubicacion": "Cra.59 # 17ª11 Puente Aranda"
     }
   ],
   "domus_anawim": [

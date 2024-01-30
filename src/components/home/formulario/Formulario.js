@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { useForm } from "@formspree/react";
 import "@/styles/home/voluntariadoform.css";
 import { InputForm } from "./InputForm";
-
+import { formulario_txt } from "@/textos/textos.txt";
 export const Formulario = () => {
   const [dataForm, setDataForm] = useState({
     nombre: "",
@@ -49,19 +49,28 @@ export const Formulario = () => {
 
   return (
     <div className="content_form">
-      <div className="info_form">
-        <div className="logo_form">
+
+
+
+      <div className="info_form ">
+
+
+
+        <div className="logo_form ">
           <div className="logo_domus_form"></div>
         </div>
-        <div className="texto_form">
+
+
+
+
+        <div className="texto_form ">
           <p>
-            A través de tu servicio de voluntariado darás apoyo a abuelas,
-            mujeres vulnerables, niños, personas en recuperación de adicciones,
-            habitantes de calle. Desde cualquier línea que elijas podrás ser
-            parte de un cambio de vida para muchas personas en condición
-            vulnerable de nuestro territorio.
-          </p>
+            {formulario_txt}
+         </p>
         </div>
+
+
+
       </div>
 
       <div className="form">
