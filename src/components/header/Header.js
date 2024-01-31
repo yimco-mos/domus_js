@@ -1,21 +1,26 @@
+// Header.js
 import { ListHeader } from "./headercomponents/ListHeader";
 import "styles/header/contentHeader.css";
 import { SubHeader } from "./headercomponents/SubHeader";
+import Link from "next/link";
+
 export default function Header() {
   return (
-    <header>
+    <header className="justify-center">
       <SubHeader />
-      <div className="content-all-header ">
-        <div className="logo-header justify-center">
-          <div className="logo-domus-header"></div>
+      <div className="content-all-header">
+        <div className="logo-header justify-left">
+    <Link href="/">
+    <div className="logo-domus-header"></div>
+    </Link>
         </div>
 
         <div className="nav-header">
-          <ListHeader liheader="¿quienes somos?" />
-          <ListHeader liheader="colabora con nosotros" />
-          <ListHeader liheader="voluntariado" />
-          <ListHeader liheader="domus para todos" />
-          <ListHeader liheader="contactanos" />
+          <ListHeader route_link={"/"} liheader={<img  src="https://img.icons8.com/ios-filled/22/home.png" alt="home"/>} />
+          <ListHeader route_link={"/quienes_somos"} liheader="¿Quiénes somos?" />
+          <ListHeader route_link={"/colabora_con_nosotros"} liheader="Colabora con nosotros" />
+          <ListHeader route_link={"/domus_para_todos"} liheader="Domus para todos" />
+          <ListHeader route_link={"/contactanos"} liheader="Contáctanos" />
         </div>
       </div>
     </header>

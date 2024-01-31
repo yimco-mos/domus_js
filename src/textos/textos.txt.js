@@ -15,3 +15,4 @@ export const titulo_oracion_pobres =
 
 export const oracion_pobres =
   "María Virgen de los Pobres, Nos conduces a Jesús, fuente de gracia, y vienes a aliviar nuestro sufrimiento. Te imploramos por esta necesidad particular…. Te imploramos con confianza: Ayúdanos a seguir a tu Hijo con generosida y a pertenecer le sin reservas. Ayúdanos a recibir al Espíritu Santo que nos guía y santifica. Consíguenos la gracia de parecernos a Jesús cada día más, para que nuestra vida glorifique al Padre y contribuya a la salvación de nuestros hermanos.";
+

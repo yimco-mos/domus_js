@@ -10,36 +10,74 @@ font-family: ;
 @tailwind components;
 @tailwind utilities;
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-transform: uppercase;
+
+  z-index: 100;
+  font-family: "Playfair Display";
+  filter: contrast(200%);
+  font-weight: 900;
+  font-weight: 600;
+  font-size: 5.5rem;
+  @apply text-white;
+}
+
+  h2{
+  text-transform: uppercase;
+
+  }
+
+h3{
+  text-transform: uppercase;
+  font-family: "Playfair Display";
+@apply text-slate-950;
+
+}
+
+h2 {
+  text-transform: uppercase;
+  
+  font-family: "Playfair Display";
+@apply text-slate-950;
     
+  font-size: 1.5rem;
 }
 
 
 
-h1{
-    z-index: 100;
-    font-family: 'Playfair Display';
-    filter: contrast(200%);
-    font-weight: 600;
-    font-size: 5.5rem;
-    @apply text-neutral-50;
+h4{
+font-family: 'Playfair Display';
+text-transform: uppercase;
+
+font-size: 1.5rem;
+@apply text-slate-950;
 
 }
-
-
 
 
 body {
+  font-family: "Poppins", sans-serif;
+  @apply bg-gray-400;
 
-    font-family: 'Poppins', sans-serif;
-    @apply bg-neutral-400;
 }
 
-body p{
-    @apply text-neutral-50;
-    font-family: 'Open Sans', sans-serif;
+body p {
+  @apply text-neutral-50;
+  font-family: "Open Sans", sans-serif;
+}
+
+img{filter: grayscale(13%) sepia(7%) blur(1px) contrast(187%);
+  -webkit-filter: grayscale(13%) sepia(7%) blur(1px) contrast(187%);
+  -moz-filter: grayscale(13%) sepia(7%) blur(1px) contrast(187%);}
 
 
+.content-all{
+  max-width: 1400px;
+  margin: 0 auto;
+  justify-content: center;
 }

@@ -11,10 +11,14 @@ export const Oracion = () => {
         <span>
           <h3> {titulo_oracion_pobres}</h3>
         </span>
+       
+        <span> 
         <p>{oracion_pobres}</p>
+
+        </span>
+       
         <br />
           <span className="amen">Amén.</span> 
-        <span></span>
       </div>
     </div>
   );

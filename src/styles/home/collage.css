@@ -1,44 +1,35 @@
+.carrusel_imgs {
+  height: 100%;
 
-
-
-
-.collage{
-    width: 100%;
-    height:600px;
-    max-width: 1400px;
-      padding: 0;
-    margin: 0 auto;
-    overflow: hidden;
-
+  max-height: 900px;
+  width: 1400px;
 }
-  
+
+.collage {
+  width: 100%;
+  height: 600px;
+  max-width: 1400px;
+  padding: 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
 
 .collage-images {
-    width: 100%;
-    height: 100%;
-    max-width: 1400px;
+  width: 100%;
+  height: 100%;
+  max-width: 1400px;
 
-    position: relative;
-    overflow: hidden;
-
+  position: relative;
+  overflow: hidden;
 }
 
-
-.collage-images img{
-    filter: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-        
+.t_carrusel {
+  position: absolute;
+  margin: 50% auto;
+  font-size: 3.5rem;
+  font-weight: 400;
+  z-index: 500;
+  width: 200px;
+  height: 1200px;
+  transform: translateY(-40%) translateX(60%);
 }
-
-.t_carrusel{
-    position: absolute;
-    margin: 50% auto;
-    font-size: 3.5rem;
-    font-weight: 400;
-    z-index: 500;
-    width: 200px;   
-    height: 1200px;
-    transform: translateY(-40%) translateX(60%);
-}
-
-
-  

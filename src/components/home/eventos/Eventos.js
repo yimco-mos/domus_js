@@ -11,7 +11,7 @@ export const Eventos = ({t_reciente,img_reciente}) => {
 
                 <div className='t_reciente'><h5>Eventos Recientes</h5></div>
 
-
+            
 
 
 

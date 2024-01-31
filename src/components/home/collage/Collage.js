@@ -32,7 +32,9 @@ export const Collage = () => {
 
 </div>
 
-    
+    <div className="carrusel_imgs">
+
+
 
       <Carousel
         showArrows={false}
@@ -47,10 +49,20 @@ export const Collage = () => {
       >
         {images.map((image, index) => (
           <div key={index}>
-            <img src={`/carrusel/${image}`} alt={`Image ${index}`} />
+            <img 
+            style={{
+              filter: 'grayscale(17%) blur(1px) brightness(54%) saturate(164%) opacity(84%) contrast(153%) invert(10%)',
+              WebkitFilter: 'grayscale(17%) blur(1px) brightness(54%) saturate(164%) opacity(84%) contrast(153%) invert(10%)',
+              MozFilter: 'grayscale(17%) blur(1px) brightness(54%) saturate(164%) opacity(84%) contrast(153%) invert(10%)'
+            }}
+             src={`/carrusel/${image}`} alt={`Image ${index}`} />
           </div>
         ))}
       </Carousel>
+
+
+    </div>
+
           
 
 

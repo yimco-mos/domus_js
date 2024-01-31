@@ -2,8 +2,6 @@
 import React, { useState } from "react";
 import { fundador_text } from "@/textos/textos.txt";
 
-
-
 export const Infundador = () => {
   const [index, setIndex] = useState(0);
   const textos = [
@@ -29,12 +27,12 @@ export const Infundador = () => {
   };
 
   return (
-    <div className="fundador flex md:w-400 ">
+    <div className="fundador justify-center flex ">
    
    
    
       <div className="image_fun">
-        <div className="image_fundador"></div>
+        <div className="img_fun"></div>
       </div>
       
       <div className="infundador block">

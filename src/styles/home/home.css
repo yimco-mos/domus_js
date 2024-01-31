@@ -5,78 +5,8 @@
   margin: 7% auto;
 }
 
-/*estilos para tarjeta de bio fundador*/
-
-.fundador_sec {
-  display: flex;
-  width: 100%;
-  max-width: 1400px;
-  height: 100%;
-}
-
-.fundador {
-  gap: 10%;
-  width: 100%;
-  max-width: 800px;
-  height: 100%;
-  margin: 0 auto;
-  border-radius: 30px;
-  @apply bg-neutral-600;
-}
-
-.image_fun {
-  height: 100%;
-  padding: 1rem;
-  max-width: 300px;
-}
-
-.image_fundador {
-  background-image: url("/targetas/fundador.jpg");
-  margin: 0 auto;
-  width: 350px;
-  height: 350px;
-  background-position: top; 
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 20px;
-
-}
-
-
-.eventos_sec{
-  width: 100%;
-  max-width: 1400px;
-  height: 100%;
-  justify-content: center;
-}
-
-.infundador {
-  width: 100%;
-  font-size: .5rem;
-  max-width: 400px;
-  height: 450px;
-  padding: .5rem;
-  @apply text-neutral-950;
-  justify-content: space-between;
-}
-
-.txt_fundador {
-  width: 100%;
-  max-width: 400px;
-  font-size: 0.95rem;
-}
-
-.btn_fun {
-  padding: 0.3rem;
-  border-radius: 12px;
-  transition: all 0.5s ease-in-out;
-}
-
-.btn_fun:hover {
-  @apply bg-neutral-50;
-}
-
 /*estilos para formulario voluntariados*/
+
 .formulario_voluntariado {
   max-width: 1400px;
   height: 100%;
@@ -100,12 +30,9 @@
   justify-content: space-between;
 }
 
+/*estilos resoonsive*/
+
 @media (max-width: 800) {
-  .fundador_sec {
-    max-width: 800px;
-  }
-
-
   .sec_programa {
     width: 400px;
   }

@@ -1,0 +1,180 @@
+.fundador_control {
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  margin: 7% auto;
+}
+
+.fundador_sec {
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+  justify-content: center;
+  max-width: 1400px;
+}
+
+.fundador {
+  width: 100%;
+  max-width: 900px;
+  margin: 5% auto;
+  justify-content: center;
+  border-radius: 12px;
+  @apply bg-gray-700;
+}
+
+.image_fun {
+  justify-content: left;
+  width: 100%;
+  max-width: 350px;
+  height: 100%;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.img_fun {
+  background-image: url("/targetas/fundador.jpg");
+  width: 280px;
+  height: 280px;
+  background-position: top;
+  background-size: cover;
+  margin: 0 auto;
+
+  border-radius: 20px;
+}
+
+.infundador {
+  height: 100%;
+  width: 100%;
+  max-width: 580px;
+  max-height: 400px;
+  font-size: 1rem;
+  margin: 0 auto;
+}
+
+.txt_fundador p {
+  width: 100%;
+  padding: 0.5rem;
+  max-height: 380px;
+  font-size: 0.8rem;
+  @apply text-neutral-50;
+}
+
+.btn_fun {
+  padding: 0.3rem;
+  border-radius: 12px;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn_fun:hover {
+  @apply bg-neutral-50;
+}
+
+.eventos_sec {
+  width: 100%;
+  max-width: 1400px;
+  height: 100%;
+  justify-content: center;
+}
+
+.content_misionv {
+  margin: 5% auto;
+  width: 100%;
+  max-width: 900px;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 1rem;
+
+  @apply bg-neutral-50;
+}
+
+.descrip_quien {
+  @apply text-neutral-950;
+}
+
+.obj_list{
+  margin: 10% auto;
+  font-size: .85rem;
+}
+
+.obj_mision_content{
+  max-width: 450px;
+}
+
+.imgs_objs{
+width: 100%;
+
+max-width: 400px;
+margin: 10% auto;
+gap:10%;
+
+}
+
+.imgs_objs img{
+  margin: 10% auto;
+}
+
+
+
+@media (max-width: 1000px) {
+  .fundador_control {
+    margin: 10% auto  ;
+  }
+
+.content_misionv {
+  margin: 5% auto;
+  width: 100%;
+  max-width: 700px;
+  justify-content: center;
+}
+
+  .obj_mision_content{
+    width: 100%;
+    display: block;
+  }
+
+  .fundador {
+    margin: 10% auto;
+    max-width: 700px;
+    justify-content: center;
+    display: block;
+  }
+}
+
+@media (max-width: 800px) {
+  .fundador_control {
+    margin: 20% 15%;
+    padding: 1rem;
+    width: 600px;
+    justify-content: center;
+  }
+
+
+  .content_misionv{
+    margin: 10% auto;
+  }
+  .fundador {
+    margin: 10% 10%;
+    justify-content: center;
+    display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  .fundador_control {
+    margin: 30% 12%;
+    width: 600px;
+
+  }
+
+  .content_misionv{
+    margin-top: 80% auto;
+
+  }
+
+  .fundador {
+    margin: 10% auto;
+    justify-content: center;
+    display: block;
+  }
+}
