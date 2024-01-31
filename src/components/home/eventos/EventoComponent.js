@@ -1,10 +1,11 @@
 import React from 'react'
+import '@/styles/components/eventos.css'
 
 export const EventoComponent = ({img_reciente,t_reciente}) => {
   return (
     
     
-    <div className='tag_reciente flex'>
+    <div className='tag_reciente flex bg-neutral-50'>
 
     <div className='img_reciente'><img src={`/eventos/${img_reciente}`} /></div>
 

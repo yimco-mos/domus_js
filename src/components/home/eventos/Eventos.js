@@ -1,6 +1,5 @@
 import React from 'react'
-import '@/styles/home/eventos.css'
-export const Eventos = ({t_reciente,img_reciente}) => {
+export const Eventos = () => {
   return (
     <div    className='tag_eventos'>
 

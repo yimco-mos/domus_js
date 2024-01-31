@@ -27,7 +27,7 @@ export const Infundador = () => {
   };
 
   return (
-    <div className="fundador justify-center flex ">
+    <div className="fundador  flex ">
    
    
    
