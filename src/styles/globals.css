@@ -17,13 +17,13 @@ font-family: ;
 
 h1 {
   text-transform: uppercase;
-
+  width: 300px;
   z-index: 100;
   font-family: "Playfair Display";
   filter: contrast(200%);
   font-weight: 900;
   font-weight: 600;
-  font-size: 5.5rem;
+  font-size: 3.5rem;
   @apply text-white;
 }
 
@@ -70,12 +70,7 @@ body p {
   @apply text-neutral-50;
   font-family: "Open Sans", sans-serif;
 }
-
-img{filter: grayscale(13%) sepia(7%) blur(1px) contrast(187%);
-  -webkit-filter: grayscale(13%) sepia(7%) blur(1px) contrast(187%);
-  -moz-filter: grayscale(13%) sepia(7%) blur(1px) contrast(187%);}
-
-
+ 
 .content-all{
   max-width: 1400px;
   margin: 0 auto;

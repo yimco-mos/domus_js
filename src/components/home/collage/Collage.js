@@ -1,4 +1,5 @@
 'use client'
+import { t_principal } from "@/textos/misionvision.text";
 import React, { useEffect, useState } from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -12,6 +13,11 @@ export const Collage = () => {
     "imawin.jpg",
     "santarosa.jpg",
   ];
+  const estilo = {
+    filter: 'grayscale(6%) blur(1px) brightness(85%) contrast(187%)',
+    WebkitFilter: 'grayscale(6%) blur(1px) brightness(85%) contrast(187%)',
+    MozFilter: 'grayscale(6%) blur(1px) brightness(85%) contrast(187%)'
+  };
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -27,8 +33,7 @@ export const Collage = () => {
 
 <div className="t_carrusel ">
 
-<h1 >Domus</h1>
-<h3>Colombia</h3>
+<h1>{t_principal}</h1>
 
 </div>
 
@@ -50,11 +55,7 @@ export const Collage = () => {
         {images.map((image, index) => (
           <div key={index}>
             <img 
-            style={{
-              filter: 'grayscale(17%) blur(1px) brightness(54%) saturate(164%) opacity(84%) contrast(153%) invert(10%)',
-              WebkitFilter: 'grayscale(17%) blur(1px) brightness(54%) saturate(164%) opacity(84%) contrast(153%) invert(10%)',
-              MozFilter: 'grayscale(17%) blur(1px) brightness(54%) saturate(164%) opacity(84%) contrast(153%) invert(10%)'
-            }}
+            style={estilo}
              src={`/carrusel/${image}`} alt={`Image ${index}`} />
           </div>
         ))}

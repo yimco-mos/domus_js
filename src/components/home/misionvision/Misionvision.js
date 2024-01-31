@@ -10,6 +10,12 @@ export const Misionvision = () => {
   const misionKeys = Object.keys(mision);
   const visionKeys = Object.keys(vision);
 
+  const estilo = {
+    filter: 'grayscale(13%) sepia(7%) blur(1px) contrast(187%)',
+    WebkitFilter: 'grayscale(13%) sepia(7%) blur(1px) contrast(187%)',
+    MozFilter: 'grayscale(13%) sepia(7%) blur(1px) contrast(187%)'
+  };
+
   return (
     <div className="content_misionv justify-center">
     
@@ -35,8 +41,8 @@ export const Misionvision = () => {
         </div> 
         
          <div className="imgs_objs block">
-              <img src="/fundacion/def.jpg"/>
-              <img src="/fundacion/nina.jpg"/>
+              <img style={estilo} src="/fundacion/def.jpg"/>
+              <img style={estilo} src="/fundacion/nina.jpg"/>
 
 
       <div className="mision_dec">

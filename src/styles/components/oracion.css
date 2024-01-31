@@ -1,9 +1,27 @@
+
+.colaboremos_control{
+
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  margin: 2rem auto;
+  margin-top: 5.5rem;
+
+}
+.oracion_sec {
+  width: 100%;
+  height: 100%;
+  margin-top: 2rem;
+  max-width: 1400px;
+  justify-content: space-between;
+}
 .oracion {
   width: 100%;
   max-width: 800px;
   height: 100%;
   border-radius: 6px;
-  margin: 0 auto;
+  margin: 2rem auto;
   @apply bg-neutral-50;
 }
 

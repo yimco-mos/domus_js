@@ -1,5 +1,5 @@
 import { oracion_pobres, titulo_oracion_pobres } from "@/textos/textos.txt";
-import "@/styles/home/oracion.css";
+import "@/styles/components/oracion.css";
 export const Oracion = () => {
   return (
     <div className="oracion flex  ">

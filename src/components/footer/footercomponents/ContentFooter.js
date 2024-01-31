@@ -1,6 +1,7 @@
 import React from "react";
 import { Redes } from "./Redes";
-import { Servicios } from "./Servicios";
+import { Servicios } from "@/components/servicios/Servicios";
+import { slogan } from "@/textos/misionvision.text";
 
 export const ContentFooter = () => {
   const InfoAdi = ({ infoAdi }) => {
@@ -19,10 +20,8 @@ export const ContentFooter = () => {
             <div className="logo-domus-header"></div>
           </div>
           <div className="txt_footer justify-left w-64">
-            <p className="text-xs w-36 ">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
-              quidem eos inventore nihil amet maiores minima repellendus quae
-              cumque sunt iusto.
+            <p className="text-2xl w-36 " style={{fontFamily:'Playfair Display'}}>
+             "{slogan}"
             </p>
           </div>
         </div>
@@ -31,38 +30,8 @@ export const ContentFooter = () => {
           <div className="tabs_footer flex ml-8 mr-4">
             <div className="servicios_footer mb-8 justify-left">
               <h4 className="text-xl mt-8 ">Servicios</h4>
-              <ul className="block py-4">
-                <Servicios servicio="educacion" />
-                <Servicios servicio="Acompañamiento abuelas" />
-                <Servicios servicio="Trabajo social " />
-                <Servicios servicio="Psicología " />
-                <Servicios servicio="Artes" />
-                <Servicios servicio="olla de la misericordia" />
-              </ul>
-            </div>
-
-            <div className="servicios_footer mb-8 justify-left">
-              <h4 className="text-xl mt-8 ">Eventos</h4>
-              <ul className="block py-4">
-                <Servicios servicio="educacion" />
-                <Servicios servicio="Acompañamiento abuelas" />
-                <Servicios servicio="Trabajo social " />
-                <Servicios servicio="Psicología " />
-                <Servicios servicio="Artes" />
-                <Servicios servicio="olla de la misericordia" />
-              </ul>
-            </div>
-
-            <div className="servicios_footer mb-8 justify-left">
-              <h4 className="text-xl mt-8 ">Contactos</h4>
-              <ul className="block py-4">
-                <Servicios servicio="educacion" />
-                <Servicios servicio="Acompañamiento abuelas" />
-                <Servicios servicio="Trabajo social " />
-                <Servicios servicio="Psicología " />
-                <Servicios servicio="Artes" />
-                <Servicios servicio="olla de la misericordia" />
-              </ul>
+              <ul className="block py-4"> 
+              <Servicios /></ul>
             </div>
           </div>
         </div>

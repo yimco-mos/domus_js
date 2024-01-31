@@ -17,3 +17,16 @@ export const vision = {
   vision:
     "Para el año 2025, la Fundación será una organización reconocida y replicable con proyección nacional e internacional, con infraestructura propia y adecuada para ofrecer sus programas a los más vulnerables.",
 };
+
+
+export const servicios =[
+  "educación",
+  "acompañamiento de abuelas",
+  "trabajo social",
+  "psicologia",
+  "artes",
+  "olla de la misericordia"
+]
+export const t_principal = "¡constuimos paz, cuidando la vida!"
+
+export const slogan= "abrazamos la vida con esperanza"

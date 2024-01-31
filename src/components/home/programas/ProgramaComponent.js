@@ -7,6 +7,13 @@ export const ProgramaComponent = ({
   descrip_programa,
   ubi_programa,
 }) => {
+
+
+  const estilo = {
+    filter: 'grayscale(13%) sepia(7%) blur(1px) contrast(187%)',
+    WebkitFilter: 'grayscale(13%) sepia(7%) blur(1px) contrast(187%)',
+    MozFilter: 'grayscale(13%) sepia(7%) blur(1px) contrast(187%)',objectFit: 'cover', width: '100%', height: '100%',background:'cover' 
+  };
   return (
     <div className='tag_prog'>
 
@@ -21,7 +28,7 @@ export const ProgramaComponent = ({
       <div className="info_programa flex">
         <div className="logo_programa">
           <img src={src_logo_programa} 
-          style={{ objectFit: 'cover', width: '100%', height: '100%',background:'cover' }} 
+          style={estilo} 
           
           alt="Logo del programa" />
         </div>
