@@ -27,6 +27,17 @@ export const servicios =[
   "artes",
   "olla de la misericordia"
 ]
+
+
+export const serviciosImagenes = [
+  "edu.jpg",
+  "fundacion1.jpg",
+  "fundacion2.jpg",
+  "psico.jpg",
+  "coro.jpg",
+  "olla.jpg"
+];
+
 export const t_principal = "¡constuimos paz, cuidando la vida!"
 
 export const slogan= "abrazamos la vida con esperanza"

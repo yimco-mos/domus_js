@@ -10,7 +10,7 @@ export const Menumovil = () => {
             <ListHeader liheader={"¿quienes somos?"}/>
             <ListHeader liheader={"ayudemos juntos"}/>
             <ListHeader liheader={"voluntariado"}/>
-            <ListHeader liheader={"domus para todos"}/>
+            <ListHeader liheader={"eventos"}/>
             <ListHeader liheader={"contactanos"}/>
         </ul>
 
