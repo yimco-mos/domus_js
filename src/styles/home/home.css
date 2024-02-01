@@ -1,3 +1,4 @@
+/* Estilos para pantalla grande */
 .home_section {
   width: 100%;
   height: 100%;
@@ -5,7 +6,6 @@
   margin: 7% auto;
 }
 
-/*seccion de carrusel*/
 .sec_programa {
   width: 100%;
   max-width: 1400px;
@@ -13,7 +13,71 @@
   justify-content: center;
 }
 
-.servis{
+.servi_content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  max-width: 1400px;
+}
 
+.targ_serv {
+  text-align: center;
+  width: 100%;
+  max-width: 450px;
+  height: 280px;
+  overflow: hidden;
+  padding: 1rem;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 12px;
+  @apply bg-neutral-50;
+}
 
+.targ_serv ul li {
+  font-size: 1.5rem;
+  font-family: 'Atkinson Hyperlegible';
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.targ_serv span {
+  width: 100%;
+  max-width: 400px;
+  overflow: hidden;
+}
+
+.img_serv span img {
+  width: 350px;
+}
+
+.servi_vol {
+  width: 280px;
+  height: 280px;
+  border-radius: 20px;
+  padding: 1rem;
+  @apply bg-neutral-50;
+}
+
+.img_vol {
+  margin: 0 auto;
+  padding: 1rem;
+  width: 150px;
+  margin: 0 auto;
+}
+
+@media (max-width:800px){
+  .servi_content{
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .serv_content {
+    display:block;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  
 }

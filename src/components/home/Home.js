@@ -7,23 +7,25 @@ import "styles/home/home.css";
 export const Home = () => {
   const Servicio = () => {
     return (
-      <>
+      <div className=" grid grid-cols-3 gap-2 mt-8 justify-items-center serv_content" style={{ gridAutoRows: 'auto', placeItems: 'center', gridAutoFlow: 'row dense' }}>
         {servicios.map((servicio, index) => (
-          <div className="list-none text-neutral-950" key={index}>
-            <li>{servicio}</li>
-            <span className="img_servicio">
-              <img
-                src={`/fundacion/${serviciosImagenes[index]}`}
-                alt={servicio}
-                style={{
-                  ...(index === servicios.length - 1 ? { float: 'left' } : {}), // Aplica estilo a la última imagen
-                  ...(index === 3 ? { marginTop: '20px' } : {}) // Aplica estilo a la cuarta imagen
-                }}
-              />
-            </span>
+          <div className="list-none text-neutral-950 targ_serv" key={index}>
+            <ul>
+              <li>{servicio}</li>
+              <span className="img_serv" style={{ position: 'relative' }}>
+                <img
+                  style={{
+                    WebkitFilter: 'blur(2px) brightness(66%) contrast(128%) grayscale(7%)',
+                    filter: 'blur(1px) brightness(66%) contrast(128%) grayscale(7%)',
+                  }}
+                  src={`/fundacion/${serviciosImagenes[index]}`}
+                  alt={`servicio de ${servicio}`}
+                />
+              </span>
+            </ul>
           </div>
         ))}
-      </>
+      </div>
     );
   };
 
@@ -33,13 +35,14 @@ export const Home = () => {
         <Collage />
       </section>
 
-      <div className="seervis justify-center">
+      <div className="servi_content justify-center">
         <Servicio />
       </div>
 
       <div className="sec_programas justify-center">
         <Programa />
       </div>
+      
     </section>
   );
 };
