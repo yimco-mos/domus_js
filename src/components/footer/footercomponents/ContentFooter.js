@@ -18,18 +18,18 @@ export const ContentFooter = () => {
 
       <div className="tabs_footer justify-center">
 
-        <div className="t_txt_footer p-1 gap-2 w-56 block justify-center">
-          <div className="logo-header text-yellow-400">
+        <div className="t_txt_footer p-4 gap-2 w-56 block justify-center">
+          <div className="logo-header p-4 text-yellow-400">
             <div className="logo-domus-header"></div>
           </div>
-          <div className="txt_footer justify-center w-64">
-            <p className="text-2xl w-36 " style={{fontFamily:'Playfair Display'}}>
+          <div className="txt_footer justify-center w-64 p-4">
+            <p className="text-2xl w-36 px-2" style={{fontFamily:'Playfair Display'}}>
              "{slogan}"
             </p>
           </div>
         </div>
 
-        <div className="servicios_info_footer justify-center   ">
+        <div className="servicios_info_footer p-4">
           <div className="tab_footer flex ml-8 mr-4">
             <div className="servicios_footer mb-8 justify-left">
               <h4 className="text-xl text-white mt-8 ">Servicios</h4>
@@ -51,7 +51,7 @@ export const ContentFooter = () => {
       </div>
 
 
-      <div className="redes_footer flex justify-center gap-6 p-1">
+      <div className="redes_footer flex justify-center gap-6 ">
         <Redes
           link_red="https://www.facebook.com/fundacion.domuscolombia?mibextid=ZbWKwL"
           link_img="https://img.icons8.com/fluency/48/facebook.png"

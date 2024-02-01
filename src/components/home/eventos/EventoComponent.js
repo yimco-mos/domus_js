@@ -1,5 +1,4 @@
 import React from 'react'
-import '@/styles/components/eventos.css'
 
 export const EventoComponent = ({img_reciente,t_reciente}) => {
   return (

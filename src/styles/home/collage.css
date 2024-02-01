@@ -1,8 +1,18 @@
+.collage-images {
+  width: 100%;
+  height: 100%;
+  max-height: 900px;
+  max-width: 1400px;
+
+  position: relative;
+  overflow: hidden;
+}
 .carrusel_imgs {
   height: 100%;
-
-  max-height: 900px;
-  width: 1400px;
+  width: 100%;
+  max-width: 1400px;
+  max-height: 700px;
+  overflow: hidden;
 }
 
 .collage {
@@ -11,15 +21,6 @@
   max-width: 1400px;
   padding: 0;
   margin: 0 auto;
-  overflow: hidden;
-}
-
-.collage-images {
-  width: 100%;
-  height: 100%;
-  max-width: 1400px;
-
-  position: relative;
   overflow: hidden;
 }
 
@@ -32,4 +33,7 @@
   width: 200px;
   height: 1200px;
   transform: translateY(-40%) translateX(60%);
+}
+
+@media (max-width: 800) {
 }

@@ -8,17 +8,11 @@
 /*seccion de carrusel*/
 .sec_programa {
   width: 100%;
-  max-width: 800px;
+  max-width: 1400px;
+  height: 100%;
+  justify-content: center;
 }
 
 /*estilos oracion de los pobres*/
 
 /*estilos resoonsive*/
-
-@media (max-width: 800) {
-  .sec_programa {
-    width: 400px;
-  }
-
-
-}
