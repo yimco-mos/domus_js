@@ -63,6 +63,7 @@
   display: block;
   justify-content: space-between;
   flex-wrap: wrap;
+  cursor: pointer;
   @apply text-neutral-950;
 }
 

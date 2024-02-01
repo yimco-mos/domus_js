@@ -31,6 +31,7 @@
   padding: 1rem;
   justify-content: center;
   margin: 0 auto;
+  cursor: pointer;
   border-radius: 12px;
   @apply bg-neutral-50;
 }
@@ -58,6 +59,11 @@
   border-radius: 20px;
   padding: 1rem;
   @apply bg-neutral-50;
+  transition: all .3s ease-in-out;
+}
+
+.targ_serv:hover{
+transform: translateY(-1rem);
 }
 
 .img_vol {
