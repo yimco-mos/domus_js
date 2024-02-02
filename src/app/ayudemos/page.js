@@ -3,7 +3,7 @@ import { Oracion } from "@/components/home/oracion/Oracion";
 
 export default function Page() {
   return (
-    <div className="mt-10 colaboremos_control">
+    <div className="mt-10 justify-center colaboremos_control">
       <section className="oracion_sec ">
         <Oracion />
       </section>

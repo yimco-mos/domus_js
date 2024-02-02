@@ -1,5 +1,6 @@
 .content_movil{
-    width: 400px;
+    width: 100px;
+    display: none;
     max-width: 400px;
     transform: translateX(-6rem);
     height: 100%;
@@ -7,7 +8,7 @@
 }
 
 .menu_movil{
-width: 450px;
+width: 300px;
 height: 600px;
 z-index: 1000;
 @apply bg-white;
@@ -20,7 +21,7 @@ margin: 1rem;
 
 .movil_toggle{
     display: none;
-    width: 200px;
+    width: 100px;
     
 }
 
@@ -35,7 +36,7 @@ margin: 1rem;
     .movil_toggle{
         display: flex;
 
-        width:200px;
+        width:100px;
     }
 
     .movil_toggle img{

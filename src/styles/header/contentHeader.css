@@ -1,117 +1,101 @@
 header {
-    z-index: 1000;
-    margin: 0;
     width: 100%;
-    max-width: 1400px;
-    max-height: 120px;
-    width: 100%;
-    position: fixed;
-    padding: 0;
-    top: 0;
+  z-index: 1000;
+  margin: 0 auto;
+  max-width: 1400px;
+  justify-content: center;
+  max-height: 120px;
+  position: fixed;
+  padding: 0;
+  top: 0;
 }
 .content-all-header {
-width: 100%;
-    display: flex;
-    margin: 0 auto;
-    align-items: center;
-    gap: .2rem;   
-     @apply bg-indigo-50;
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.2rem;
+  @apply bg-indigo-50;
 }
-.logo-header{
-    width: 200px;
-    justify-content: center;
-    z-index: 1000;
-
-
+.logo-header {
+  width: 150px;
+  justify-content: center;
+  z-index: 1000;
+  justify-items: center;
 }
-
 
 .logo-domus-header {
-    width: 110px;
-    height: 110px;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    background-image: url("/logos/logodomus.jpg");
+  padding-top: 1rem;
+
+  width: 110px;
+  height: 110px;
+  background-allposition: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-image: url("/logos/logodomus.jpg");
 }
 
-
 .nav-header {
-    display: flex;
-    margin: 0;
-    padding: .5rem;
-    width: 60%;
-    justify-content: space-around;
+  display: flex;
+  margin: 0;
+  padding: 0.5rem;
+  width: 60%;
+  justify-content: space-around;
 }
 
 .nav-header ul {
-    
-    display: flex;
-    margin: 0;
-    justify-content: center;
+  display: flex;
+  margin: 0;
+  justify-content: center;
 }
-
 
 .nav-header ul li {
-    list-style: none;
+  list-style: none;
 
-    margin: .5rem;
-    cursor: pointer;
-    text-transform: capitalize;
-    transition: all .3s ease-in-out;
-    font-family: 'Playfair Display';
-    @apply text-neutral-950;
-
+  margin: 0.5rem;
+  cursor: pointer;
+  text-transform: capitalize;
+  transition: all 0.3s ease-in-out;
+  font-family: "Playfair Display";
+  @apply text-neutral-950;
 }
-
-
-
 
 .nav-header ul li:hover {
-    @apply text-amber-400;
-
+  @apply text-amber-400;
 }
 
-
-.subheader{
-@apply bg-orange-600;
-margin: 0 auto;
-width:100%;
-max-width:1400px;
-height:30px;
-justify-content: center;
-
+.subheader {
+  @apply bg-orange-600;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1400px;
+  height: 30px;
+  justify-content: center;
 }
 
-.contacto_subh{
-
-    width:70%;
-    
+.contacto_subh {
+  width: 70%;
 }
 
-.contactatanos_subh{
-width:30%;
-
-
-
+.contactatanos_subh {
+  width: 30%;
 }
 
-
-.info_subh{
-
+.info_subh {
 }
 
-
-@media(max-width:800px){
-    .nav-header{
+@media (max-width: 800px) {
+  .nav-header {
     display: none;
+  }
 
-    }
-
-    .content-all-header{
+  .content-all-header {
     display: flex;
-
-    }
-    
+    width: 400px;
+    justify-content: center;
+    margin: 0 auto;
+  }
 }

@@ -8,7 +8,7 @@
 }
 
 .fundador_sec {
-  width: 100%;
+  width: 800px;
   height: 100%;
   margin-top: 5%;
   justify-content: center;
@@ -80,13 +80,13 @@
 }
 
 .content_misionv {
-  margin: 5% auto;
+  margin: 2rem auto;
   width: 100%;
   max-width: 900px;
   justify-content: center;
   border-radius: 20px;
   padding: 1rem;
-
+  text-align: center;
   @apply bg-neutral-50;
 }
 
@@ -101,18 +101,21 @@
 
 .obj_mision_content{
   max-width: 450px;
+  margin: 0 auto;
+  justify-content: center;
 }
 
-.imgs_objs{
+.imgs_bjs{
 width: 100%;
-
+justify-content: center;
+padding:0 1rem;
 max-width: 400px;
 margin: 10% auto;
 gap:10%;
 
 }
 
-.imgs_objs img{
+.imgs_bjs img{
   margin: 10% auto;
 }
 
@@ -147,6 +150,10 @@ gap:10%;
     width: 100%;
     display: block;
   }
+  .img_bjs{
+    display: block;
+  }
+
 
   .fundador {
     margin: 10% auto;
@@ -163,8 +170,8 @@ gap:10%;
     justify-content: center;
   }
 
-
   .content_misionv{
+    display: block;
     margin: 10% auto;
   }
   .fundador {

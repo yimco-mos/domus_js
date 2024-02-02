@@ -1,6 +1,17 @@
+'use client'
+import { useState } from "react"
+import Link from "next/link"
+
+const cerrarMenu=(state)=>{
+
+  sendStatusCode(e=>!e)
+
+}
+
+
 
 export const Menumovil =()=>{
-
+  const [cerrar,setCerrar]=useState(false)
 
 
 
@@ -14,13 +25,15 @@ export const Menumovil =()=>{
         
 
 
+      <div className="cerrar_movil" onClick={cerrarMenu}>cerrar</div>
 
 
         <ul className='list_movil list-none sapce-y-4 p-4 text-xl'>
-          <li>quienes somos</li>
-          <li>ayudanos a ayudar</li>
+          <li> <Link href={'/'}>pagina principal </Link> </li>
+          <li> <Link href={'/quienes_somos'}>quienes somos </Link> </li>
+          <li><Link href={'/ayudemos'}>ayudanos a ayudar</Link></li>
           <li>eventos</li>
-          <li>contactos</li>
+          <li><a href="#contactos">contactos</a></li>
         </ul>
 
       

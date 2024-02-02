@@ -18,12 +18,12 @@ export const ContentFooter = () => {
 
       <div className="tabs_footer justify-center">
 
-        <div className="t_txt_footer px-4 gap-2 block justify-center">
+        <div className="t_txt_footer px-4 gap-2 flex justify-center">
           <div className="logo-header justify-center text-yellow-400">
             <div className="logo-domus-header"></div>
           </div>
           <div className="txt_footer justify-center ">
-            <p className="text-2xl w-36 " style={{fontFamily:'Playfair Display'}}>
+            <p className="text-2xl w-36  " style={{fontFamily:'Playfair Display'}}>
              "{slogan}"
             </p>
           </div>

@@ -25,6 +25,9 @@ footer {
 
 .t_txt_footer{
   width:30%;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
   
 }
 
@@ -35,6 +38,7 @@ footer {
   justify-content: space-around;
 
 }
+
 
 
 @media (max-width: 800px) {
@@ -83,6 +87,7 @@ footer {
     gap: 3px;
     font-size: 18px;
     width: 80%;
+    margin: 0 auto;
   }
 
   .info_footer {

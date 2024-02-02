@@ -74,7 +74,16 @@ body p {
 }
  
 .content-all{
+  
   max-width: 1400px;
   margin: 0 auto;
   justify-content: center;
+}
+
+
+@eddia (max-width:800px){
+
+  .content-all{
+    width:1rem;
+  }
 }

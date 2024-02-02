@@ -42,7 +42,6 @@ export const Misionvision = () => {
         
          <div className="imgs_objs block">
               <img style={estilo} src="/fundacion/def.jpg"/>
-              <img style={estilo} src="/fundacion/nina.jpg"/>
 
 
       <div className="mision_dec">
@@ -55,6 +54,7 @@ export const Misionvision = () => {
       </div>
 
 
+      <img style={estilo} src="/fundacion/nina.jpg"/>
 
 
       <div className="vision_dec">
