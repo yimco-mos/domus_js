@@ -35,6 +35,10 @@ export const Home = () => {
         <Collage />
       </section>
 
+
+
+
+
       <div className="servi_content justify-center">
         <Servicio />
       </div>
