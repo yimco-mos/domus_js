@@ -1,15 +1,15 @@
 import { Formulario } from "@/components/home/formulario/Formulario";
 import { Oracion } from "@/components/home/oracion/Oracion";
 
-export default function Page() {
+export default function AyudemosPage() {
   return (
-    <div className="mt-10 justify-center colaboremos_control">
-      <section className="oracion_sec ">
+    <div className="colabora_control justify-center ">
+      <div className="oracion_sec ">
         <Oracion />
-      </section>
-      <section className="formulario_voluntariado mt-6">
+      </div>
+      <div className="formulario_sec mt-6">
         <Formulario />
-      </section>
+      </div>
     </div>
   );
 }

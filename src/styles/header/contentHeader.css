@@ -1,26 +1,25 @@
 header {
     width: 100%;
   z-index: 1000;
-  margin: 0 auto;
   max-width: 1400px;
+  height: 120px;
+
   justify-content: center;
-  max-height: 120px;
   position: fixed;
   padding: 0;
   top: 0;
 }
 .content-all-header {
-  width: 1200px;
+ max-width: 1400px;
   display: flex;
   margin: 0 auto;
 
   justify-content: space-between;
   align-items: center;
-  gap: 0.2rem;
   @apply bg-indigo-50;
 }
 .logo-header {
-  width: 150px;
+  width: 200px;
   justify-content: center;
   z-index: 1000;
   justify-items: center;
@@ -29,7 +28,7 @@ header {
 .logo-domus-header {
   padding-top: 1rem;
 
-  width: 110px;
+  width: 200px;
   height: 110px;
   background-allposition: center;
   background-size: contain;
@@ -94,7 +93,7 @@ header {
 
   .content-all-header {
     display: flex;
-    width: 400px;
+    max-width: 400px;
     justify-content: center;
     margin: 0 auto;
   }

@@ -1,7 +1,7 @@
 import React from 'react';
 import '@/styles/components/fundador.css';
 
-export default function RootLayout({ children }) {
+export default function QuienesLayout({ children }) {
     return (
       
   

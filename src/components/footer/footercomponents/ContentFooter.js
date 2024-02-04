@@ -23,7 +23,7 @@ export const ContentFooter = () => {
             <div className="logo-domus-header"></div>
           </div>
           <div className="txt_footer justify-center ">
-            <p className="text-2xl w-36  " style={{fontFamily:'Playfair Display'}}>
+            <p className="text-2xl w-36  " style={{fontFamily:'Playfair Display',textTransform:'capitalize'}}>
              "{slogan}"
             </p>
           </div>

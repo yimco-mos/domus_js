@@ -30,7 +30,7 @@ export const Home = () => {
   };
 
   return (
-    <section className="home_section">
+    <div className="home_section">
       <section className="collage justify-center">
         <Collage />
       </section>
@@ -47,6 +47,6 @@ export const Home = () => {
         <Programa />
       </div>
       
-    </section>
+    </div>
   );
 };

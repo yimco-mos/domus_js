@@ -1,14 +1,19 @@
-/* Estilos para pantalla grande */
+
+
 .home_section {
   width: 100%;
   max-width: 1400px;
-  
   height: 100%; 
   padding: 0;
   justify-content: center;
   margin: 7% auto;
 }
 
+.home_control{
+  width: 1400px;
+  
+  margin: 0 auto;
+}
 .sec_programa {
   width: 1200;
   margin: 0 auto;
@@ -78,7 +83,7 @@ transform: translateY(-1rem);
 
 @media (max-width:800px){
   
-
+  
   .servi_content{
     justify-content: center;
     justify-content: center;

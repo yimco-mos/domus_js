@@ -2,11 +2,11 @@
 import React from 'react';
 import '@/styles/components/eventos.css'
 
-export default function RootLayout({ children }) {
+export default function EventosLayout({ children }) {
     return (
       <>
   
-          <section className="fundador_control">
+          <section className="eventos_control ">
           
             {children}
           </section>

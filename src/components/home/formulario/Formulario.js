@@ -1,7 +1,6 @@
 'use client'
 import React, { useState, useEffect } from "react";
 import { useForm } from "@formspree/react";
-import "@/styles/components/formulario.css";
 import { InputForm } from "./InputForm";
 import { formulario_txt } from "@/textos/textos.txt";
 export const Formulario = () => {

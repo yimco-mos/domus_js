@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" integrity="sha512-CqHIvpN5AY8fr63vRfmbA6G5tJX/ugcagZBg0MmY2BV2JUxqFEE0AdhX/xBBZ59nhfFlP6+fHKpN7hqDOy4FCg=="  referrerpolicy="no-referrer"/>
 </head>
       <html lang="es">
-        <body className="content-all justify-center">
+        <body className="content-all-app justify-center">
           <Header />
           {children}
           <Footer />
