@@ -12,6 +12,12 @@ import { useState } from "react";
 export default function Header() {
   const [movil, setMovil] = useState(false);
 
+
+  const hideMovil=()=>{
+    
+   return setMovil((e) => !e);
+  }
+
   return (
     <header className="justify-center">
       <div className="content-all-header flex">
@@ -45,7 +51,7 @@ export default function Header() {
           )}
         </div>
 
-        {movil && <Menumovil />}
+        {movil && <Menumovil nomovil={hideMovil} />}
 
         <div className="nav-header">
           <ListHeader
@@ -63,7 +69,7 @@ export default function Header() {
           />
           <ListHeader route_link={"/ayudemos"} liheader="ayudanos a ayudar" />
           <ListHeader route_link={"/eventos"} liheader="eventos" />
-          <a href="#contactos">contactanos</a>
+          <a className="ml-4" href="#contactos">contactanos</a>
         </div>
       </div>
     </header>

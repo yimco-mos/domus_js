@@ -1,16 +1,8 @@
-.collage-images {
-  width: 100%;
-  max-width: 1400px;
-  height:900px;
 
-  position: relative;
-  overflow: hidden;
-}
 .carrusel_imgs {
-  height: 100%;
   width: 100%;
   max-width: 1400px;
-  max-height: 700px;
+  max-height: 900px;
   overflow: hidden;
 }
 
@@ -35,4 +27,5 @@
 }
 
 @media (max-width: 800) {
+
 }

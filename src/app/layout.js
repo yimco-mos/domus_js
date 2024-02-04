@@ -24,7 +24,12 @@ export default function RootLayout({ children }) {
       <html lang="es">
         <body className="content-all-app justify-center">
           <Header />
+
+          <div className="home_lay"> 
           {children}
+          </div>
+
+
           <Footer />
         </body>
       </html>

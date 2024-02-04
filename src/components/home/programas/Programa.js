@@ -30,7 +30,7 @@ export const Programa = () => {
           width="900px"
           stopOnHover={true}
           centerMode={true}
-          centerSlidePercentage={33}
+          centerSlidePercentage={40}
         >
           {programas.map((prog, index) => (
             <div key={index} className="justify-center targ_programas ">

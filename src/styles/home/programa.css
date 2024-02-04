@@ -1,20 +1,16 @@
+.content_programa_carrusel {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 400px; 
+}
+
 .tag_programa_container {
   width: 100%;
   max-width: 1400px;
-  height: 100%;
   padding: 0;
-  margin-top: 10%;
-  position: relative;
-  justify-content: center;
-}
-
-.content_programa_carrusel {
-  width: 900px;
-  max-width: 1400px;
-  justify-content: center;
   margin: 0 auto;
 }
-
 .targ_programas {
   @apply bg-neutral-50;
   margin: 0 auto;
@@ -23,9 +19,8 @@
 }
 
 .tag_prog {
-  width: 420px;
-  height: 350px;
-  padding: 0;
+  width: 350px;
+  height: 400px;
   margin: 0 2.5rem;
   @apply bg-orange-600;
 }
@@ -38,7 +33,9 @@
 
 .info_programa {
   margin: 0.5rem 0.5rem;
-
+  justify-content: space-around;
+  width: 100%;
+  max-width: 300px;
   align-items: center;
 }
 
@@ -53,16 +50,14 @@
 
 .desc_programa {
   width: 100%;
-  max-width: 280px;
+  max-width: 300px;
   text-align: left;
-  width: 300px;
   text-align: left;
   padding: 0 0.5rem;
   height: 100%;
   max-height: 160px;
   display: block;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  justify-content: space-around;
   cursor: pointer;
   @apply text-neutral-950;
 }
@@ -70,15 +65,16 @@
 .txt_prog {
   padding: 0;
   overflow-wrap: break-word;
-  width: 220px;
-  font-size: 1rem;
-  height: 70%;
+  width: 300px;
+  font-size: 1.2rem;
+  height: 90%;
 }
 .txt_ubi {
-  font-size: 0.6rem;
+  font-size: 0.9rem;
   overflow-wrap: break-word;
-  width: 220px;
-  height: 27%;
+  padding: .5rem;
+  width: 300px;
+  height: 10%;
   padding-bottom: 0.2rem;
 }
 
@@ -88,32 +84,18 @@
   text-justify: auto;
 
   margin: 0.5rem auto;
-  font-size: 0.6rem;
+  font-size: .85rem;
 }
 
 .img_programa {
   width: 100%;
-  max-width: 300px;
+  max-width: 350px;
   height: 140px;
 }
 
 .logo_programa {
   width: 50px;
 }
-.tag_programa-button {
-  @apply bg-orange-600;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  border: none;
-  padding: 10px;
-  height: 100px;
-
-  cursor: pointer;
-  border-radius: 50%;
-  z-index: 1;
-}
-
 .tag_programa-button:first-child {
   left: 0;
 }

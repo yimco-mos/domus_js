@@ -93,8 +93,8 @@ header {
 
   .content-all-header {
     display: flex;
-    max-width: 400px;
-    justify-content: center;
+    max-width: 800px;
+    justify-content: space-around;
     margin: 0 auto;
   }
 }

@@ -29,18 +29,6 @@ h1 {
 
 }
 
-  h2{
-  text-transform: uppercase;
-
-  }
-
-h3{
-  text-transform: uppercase;
-  font-family: "Playfair Display";
-@apply text-slate-950;
-
-}
-
 h2 {
   text-transform: uppercase;
   
@@ -48,6 +36,14 @@ h2 {
 @apply text-slate-950;
     
   font-size: 1.5rem;
+}
+
+
+h3{
+  text-transform: uppercase;
+  font-family: "Playfair Display";
+@apply text-slate-950;
+
 }
 
 
@@ -64,7 +60,7 @@ font-size: 1.5rem;
 
 body {
   font-family: "Poppins", sans-serif;
-  @apply bg-gray-400;
+  @apply bg-gray-200;
 
 }
 
@@ -101,6 +97,6 @@ body p {
 
   .content-all-app{
     width:1rem;
-    margin:0 -100%;
+    margin:0 auto;
   }
 }
