@@ -31,6 +31,7 @@ export const Home = () => {
 
   return (
     <div className="home_section">
+      
       <section className="collage justify-center">
         <Collage />
       </section>
@@ -39,12 +40,12 @@ export const Home = () => {
 
 
 
-      <div className="servi_content justify-center">
-        <Servicio />
-      </div>
-
       <div className="sec_programas justify-center">
         <Programa />
+      </div>
+
+      <div className="servi_content justify-center">
+        <Servicio />
       </div>
       
     </div>

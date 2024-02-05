@@ -18,16 +18,6 @@ export const Collage = () => {
     WebkitFilter: "grayscale(6%) blur(1px) brightness(85%) contrast(187%)",
     MozFilter: "grayscale(6%) blur(1px) brightness(85%) contrast(187%)",
   };
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) =>
-        prevIndex === images.length - 1 ? 0 : prevIndex + 1
-      );
-    }, 2000);
-    return () => clearInterval(interval);
-  }, []);
-
   return (
     <div className="collage-images ">
       <div className="t_carrusel ">
@@ -42,7 +32,7 @@ export const Collage = () => {
           autoPlay
           autoFocus={true}
           infiniteLoop
-          interval={5000}
+          interval={3000}
           selectedItem={currentIndex}
           onChange={(index) => setCurrentIndex(index)}
         >

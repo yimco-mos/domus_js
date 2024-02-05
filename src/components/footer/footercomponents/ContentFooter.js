@@ -7,7 +7,7 @@ export const ContentFooter = () => {
   const InfoAdi = ({ infoAdi }) => {
     return (
       <>
-        <p className="ml-4 p-3 mr-4">{infoAdi}</p>
+        <li className="ml-4 p-3 mr-4">{infoAdi}</li>
       </>
     );
   };
@@ -42,10 +42,16 @@ export const ContentFooter = () => {
 
 
       <div className="mt-4 block justify-center p-4 gap-8 info_footer">
+          
+
+        <ul className="text-neutral-50">
+
         <InfoAdi infoAdi="Cra. 56#17-44 " />
         <InfoAdi infoAdi="Bogotá D.C" />
         <InfoAdi infoAdi="321 949 92 71  " />
         <InfoAdi infoAdi="domuscolombia@hotmail.com" />
+        </ul>
+
       </div>
 
       </div>
