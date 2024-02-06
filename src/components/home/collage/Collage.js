@@ -17,36 +17,30 @@ export const Collage = () => {
     filter: "grayscale(6%) blur(1px) brightness(85%) contrast(187%)",
     WebkitFilter: "grayscale(6%) blur(1px) brightness(85%) contrast(187%)",
     MozFilter: "grayscale(6%) blur(1px) brightness(85%) contrast(187%)",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
   };
+
   return (
-    <div className="collage-images ">
-      <div className="t_carrusel ">
+    <div className="container_cover">
+      <div className="t_carrusel">
         <h1>{t_principal}</h1>
       </div>
-
-      <div className="carrusel_imgs">
-        <Carousel
-          showArrows={false}
-          showStatus={false}
-          showThumbs={false}
-          autoPlay
-          autoFocus={true}
-          infiniteLoop
-          interval={3000}
-          selectedItem={currentIndex}
-          onChange={(index) => setCurrentIndex(index)}
-        >
-          {images.map((image, index) => (
-            <div key={index}>
-              <img
-                style={estilo}
-                src={`/carrusel/${image}`}
-                alt={`Image ${index}`}
-              />
-            </div>
-          ))}
-        </Carousel>
-      </div>
+      <Carousel
+        showArrows={false}
+        showStatus={false}
+        showThumbs={false}
+        autoPlay
+        autoFocus={true}
+        infiniteLoop
+        interval={3000}
+        selectedItem={currentIndex}
+        onChange={(index) => setCurrentIndex(index)}
+      >
+        {images.map((image, index) => (
+          <div className="imgs_carru" key={index} style={{ ...estilo, backgroundImage: `url(/carrusel/${image})` }}></div>
+        ))}
+      </Carousel>
     </div>
   );
 };

@@ -25,6 +25,7 @@
     border-radius: 12px;
     justify-content: center;
     align-items: center;
+    box-shadow: 21px 23px 18px -18px rgba(0,0,0,0.75);
     @apply bg-neutral-50;
   
   }
@@ -59,7 +60,10 @@
     text-align:left ;
     line-height: 2;
     border-radius: 20px;
-    @apply bg-neutral-950;
+    box-shadow: 8px -9px 22px -5px rgba(0,0,0,0.75);
+
+
+    @apply bg-gray-600;
   }
   
   
@@ -72,6 +76,7 @@
     gap: 10px;
     padding: 1rem;
     border-radius: 6px;
+    
     @apply bg-orange-600;
   
   }
@@ -138,12 +143,12 @@
     }
     
     .info_form{
-      max-width: 420px;
+      max-width: 450px;
       width: 100%;
     }
   .form{
     width: 100%;
-    max-width:400px;
+    max-width:460px;
     
     
   

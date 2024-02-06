@@ -19,7 +19,7 @@ export const Programa = () => {
         <Carousel
           autoPlay={true}
           showArrows={true}
-          interval={3000}
+          interval={5000}
           infiniteLoop={true}
           showThumbs={false}
           showStatus={false}

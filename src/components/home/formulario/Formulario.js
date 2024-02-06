@@ -59,9 +59,6 @@ export const Formulario = () => {
           <div className="logo_domus_form"></div>
         </div>
 
-
-
-
         <div className="texto_form ">
           <p>
             {formulario_txt}

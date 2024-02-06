@@ -16,11 +16,15 @@ footer {
 }
 
 .info_footer{
-  width: 1000%;
+  width: 350px;
 }
 
 .servicios_info_footer{
   width: 30%;
+}
+
+.servicios_info_footer ul{
+  width: 200px;
 }
 
 .t_txt_footer{
@@ -35,7 +39,7 @@ footer {
   width: 100%;
   display: flex;
 
-  justify-content: space-around;
+  justify-content: center;
 
 }
 

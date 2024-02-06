@@ -16,7 +16,7 @@ export const ContentFooter = () => {
     <div className="content-footer justify-center block">
 
 
-      <div className="tabs_footer justify-center">
+      <div className="tabs_footer ">
 
         <div className="t_txt_footer px-4 gap-2 flex justify-center">
           <div className="logo-header justify-center text-yellow-400">

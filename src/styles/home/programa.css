@@ -1,8 +1,12 @@
 .content_programa_carrusel {
   display: flex;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
   justify-content: center; 
   align-items: center; 
   height: 400px; 
+  box-shadow: -39px -17px 24px -21px rgba(0,0,0,0.75);
 }
 
 .tag_programa_container {
@@ -12,6 +16,7 @@
   margin: 0 auto;
 }
 .targ_programas {
+
   @apply bg-neutral-50;
   margin: 0 auto;
   width: 100%;

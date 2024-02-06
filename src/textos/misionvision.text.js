@@ -20,22 +20,22 @@ export const vision = {
 
 
 export const servicios =[
+  "apoyo a abuelas",
   "educación",
-  "acompañamiento de abuelas",
+  "olla de misericordia",
   "trabajo social",
   "psicologia",
   "artes",
-  "olla de la misericordia"
 ]
 
 
 export const serviciosImagenes = [
-  "edu.jpg",
   "fundacion1.jpg",
+  "edu.jpg",
+  "olla.jpg",
   "fundacion2.jpg",
   "psico.jpg",
   "coro.jpg",
-  "olla.jpg"
 ];
 
 export const t_principal = "¡constuimos paz, cuidando la vida!"

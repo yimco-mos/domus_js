@@ -3,7 +3,7 @@ header {
   z-index: 1000;
   max-width: 1400px;
   height: 120px;
-
+  margin-bottom: 1rem;
   justify-content: center;
   position: fixed;
   padding: 0;
@@ -16,7 +16,7 @@ header {
 
   justify-content: space-between;
   align-items: center;
-  @apply bg-indigo-50;
+  @apply bg-neutral-50;
 }
 .logo-header {
   width: 200px;
@@ -71,16 +71,23 @@ header {
   margin: 0 auto;
   width: 100%;
   max-width: 1400px;
-  height: 30px;
-  justify-content: center;
+  height: 45px;
+  justify-content: space-around;
 }
 
-.contacto_subh {
+
+.info_subh{
   width: 70%;
+  gap: 3rem;
+  justify-content: right;
+  height: 20px;
 }
 
-.contactatanos_subh {
+.descarga_subh {
   width: 30%;
+    align-items: center;
+    padding-top:.5rem;
+  max-width: 150px;
 }
 
 .info_subh {
@@ -91,9 +98,12 @@ header {
     display: none;
   }
 
+  .info_subh{
+    gap: 1rem;
+  }
   .content-all-header {
     display: flex;
-    max-width: 800px;
+    width:100%;
     justify-content: space-around;
     margin: 0 auto;
   }

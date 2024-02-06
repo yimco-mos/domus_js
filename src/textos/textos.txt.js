@@ -16,3 +16,21 @@ export const titulo_oracion_pobres =
 export const oracion_pobres =
   "María Virgen de los Pobres, Nos conduces a Jesús, fuente de gracia, y vienes a aliviar nuestro sufrimiento. Te imploramos por esta necesidad particular…. Te imploramos con confianza: Ayúdanos a seguir a tu Hijo con generosida y a pertenecer le sin reservas. Ayúdanos a recibir al Espíritu Santo que nos guía y santifica. Consíguenos la gracia de parecernos a Jesús cada día más, para que nuestra vida glorifique al Padre y contribuya a la salvación de nuestros hermanos.";
 
+export const targets ={
+  ayudemos:"ayudanos a ayudar a mas personas en estado vulnerable",
+  voluntarios:"unete a nuestros equipos de voluntarios con ganas de ayudar",
+  eventos:"participa de especiales eventos para la comunidad y para crecimineto personal"
+
+
+}
+
+
+export const txt_ayudantes = "Únete como voluntario y sé parte de nuestra misión de ayudar a abuelos, niños y jóvenes en situación vulnerable. Tu tiempo y dedicación marcarán la diferencia en sus vidas, y encontrarás en esta experiencia una gratificación incomparable. Juntos, podemos hacer del mundo un lugar mejor."
+
+
+export const txt_principal = {
+
+  titulo:"¡Únete y Haz la Diferencia!",
+  pa_uno:"En el corazón de nuestra comunidad, se encuentra una causa noble que busca transformar vidas y generar un impacto positivo que perdure en el tiempo. En nuestra Fundación de Abuelos, Niños y Jóvenes, nos comprometemos día a día a crear un entorno de amor, apoyo y oportunidades para aquellos que más lo necesitan.",
+  pa_dos:"¡Únete a nuestra fundación y sé parte del cambio! Ayudamos a abuelos, niños y jóvenes a alcanzar su máximo potencial. También apoyamos a madres víctimas de violencia y a habitantes de calle. Tu donación y voluntariado hacen la diferencia. Juntos, construyamos un futuro mejor. ¡Te esperamos con los brazos abiertos!."
+}

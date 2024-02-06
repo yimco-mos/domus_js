@@ -1,0 +1,31 @@
+.control_txtprin{
+    width: 100%;
+    max-width: 1400px;
+    height: 100%;
+    justify-content: center;
+}
+
+.content_txt_prin h4{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+.content_txt_prin{
+    width: 800px;
+    padding: 1rem;
+    @apply bg-neutral-50;
+    box-shadow: 17px -14px 44px -9px rgba(0,0,0,0.75);
+
+
+}
+
+
+.content_txt_prin p{
+    max-width:450px ;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 1rem;
+    @apply text-neutral-950;
+
+}

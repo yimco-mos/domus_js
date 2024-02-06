@@ -5,6 +5,7 @@
       "components/*": ["./src/components/*"],
       "styles/*": ["./src/styles/*"],
       "textos/*": ["./textos/*"],
+      "pdf/*": ["./src/pdf/*"],
       
     }
   }

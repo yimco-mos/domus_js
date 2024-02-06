@@ -1,9 +1,19 @@
 import { Home } from "@/components/home/Home";
 
+import { Collage } from "@/components/home/collage/Collage";
 export default function Page() {
   return (
-    <div className="home_control">
+
+    <>
+    
+
+<Collage />
+
+
+
       <Home />
-    </div>
+    
+    
+    </>
   );
 }

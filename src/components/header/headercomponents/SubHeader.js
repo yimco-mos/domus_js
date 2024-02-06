@@ -1,9 +1,11 @@
 'use client'
+import { Redes } from "@/components/footer/footercomponents/Redes";
 import React from "react";
+
 
 export const SubHeader = () => {
   const descargarPDF = async () => {
-    const pdfURL = '/src/pdf/rut/RUTDOMUS2020-actualizado-1.pdf'; 
+    const pdfURL = '@/pdf/rut/RutDomus.pdf'; 
     try {
       const response = await fetch(pdfURL);
       const blob = await response.blob();
@@ -19,26 +21,32 @@ export const SubHeader = () => {
     }
   };
 
-  const InfoAdi = ({ infoAdi, img_link }) => {
-    return (
-      <div className="flex">
-        <span className="py-1 mr-1"> <img src={img_link} alt="icono" /> </span>
-        <p className="mr-4">{infoAdi}</p>
-      </div>
-    );
-  };
 
   return (
-    <div className="subheader justify-center gap-12 p-1 flex">
-      <div className="contacto_subh">
-        <div className="info_subh flex aling-center space-8 mr-2">
-          <InfoAdi img_link="https://img.icons8.com/ios-filled/18/cell-phone.png" infoAdi="321-949-92-71" />
-          <InfoAdi img_link="https://img.icons8.com/ios-glyphs/18/gmail.png" infoAdi="domuscolombia@hotmail.com" />
-        </div>
-      </div>
+    <div className="subheader aling-center  flex">
+      
+        <div className="info_subh flex  space-8 mr-2">
+     
+        <Redes
+          link_red="https://www.facebook.com/fundacion.domuscolombia?mibextid=ZbWKwL"
+          link_img="https://img.icons8.com/fluency/40/facebook.png"
+        />
 
-      <div className="contactanos_subh cursor-pointer bg-neutral-950" onClick={descargarPDF}>
-        <span> Descargar PDF</span>
+        <Redes
+          link_red="https://www.instagram.com/fundomus?utm_source=qr&igsh=MWhneWhhcGdydHV3Zg=="
+          link_img="https://img.icons8.com/fluency/40/instagram-new.png"
+        />
+
+        <Redes
+          link_red="https://wa.me/3219499271"
+          link_img="https://img.icons8.com/color/40/whatsapp--v1.png"
+        />
+        
+       </div>
+   
+
+      <div className="descarga_subh cursor-pointer bg-neutral-50" onClick={descargarPDF}>
+        <span className="flex space-x-4 cursor-pointer capitalize"> <img src="https://img.icons8.com/material-rounded/24/download--v1.png" alt="download--v1"/> docs. legales</span>
       </div>
     </div>
   );

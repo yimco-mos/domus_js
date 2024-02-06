@@ -3,7 +3,7 @@
   width: 100%;
   max-width: 1400px;
   justify-content: center;
-  margin: 4rem auto;
+  margin: 8rem auto;
   padding-top: 1rem;
 }
 
@@ -29,6 +29,9 @@
   border-radius: 6px;
   margin: 2rem auto;
   justify-content: space-between;
+  box-shadow: 6px 2px 14px -4px rgba(0,0,0,0.75);
+  
+
   @apply bg-neutral-50;
 }
 
