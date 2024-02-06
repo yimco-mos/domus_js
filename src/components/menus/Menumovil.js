@@ -21,11 +21,10 @@ export const Menumovil =({nomovil})=>{
 
 
         <ul className='list_movil list-none sapce-y-4 p-4 text-xl'>
-        <li onClick={nomovil} > <Link href={'/'}>pagina principal </Link> </li>
-          <li onClick={nomovil} > <Link href={'/quienes_somos'}>quienes somos </Link> </li>
-          <li onClick={nomovil} ><Link href={'/ayudemos'}>ayudanos a ayudar</Link></li>
-          <li onClick={nomovil} ><Link href={'/eventos'}>eventos</Link></li>
-          <li onClick={nomovil} ><a href="#contactos">contactos</a></li>
+          <li onClick={nomovil} > <Link href={'/quienes_somos'} className="hover:text-orange-600 capitalize" >quienes somos </Link> </li>
+          <li onClick={nomovil} className="hover:text-orange-600 " ><Link className="hover:text-orange-600 capitalize"  href={'/ayudemos'}>ayudanos a ayudar</Link></li>
+          <li onClick={nomovil} className="hover:text-orange-600 " ><Link className="hover:text-orange-600 capitalize"  href={'/eventos'}>eventos</Link></li>
+          <li onClick={nomovil} className="hover:text-orange-600 " ><a className="hover:text-orange-600 capitalize"  href="#contactos">contactos</a></li>
         </ul>
 
       

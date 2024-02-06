@@ -59,11 +59,7 @@ header {
   text-transform: capitalize;
   transition: all 0.3s ease-in-out;
   font-family: "Playfair Display";
-  @apply text-neutral-950;
-}
-
-.nav-header ul li:hover {
-  @apply text-amber-400;
+ 
 }
 
 .subheader {

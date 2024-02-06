@@ -72,7 +72,7 @@ export default function Header() {
           />
           <ListHeader route_link={"/ayudemos"} liheader="ayudanos a ayudar" />
           <ListHeader route_link={"/eventos"} liheader="eventos" />
-          <a className="ml-4" href="#contactos">contactanos</a>
+          <a className="ml-4 hover:text-orange-600 capitalize"  href="#contactos">contactanos</a>
         </div>
       </div>
     </header>
