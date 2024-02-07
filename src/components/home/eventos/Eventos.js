@@ -1,4 +1,7 @@
 import React from 'react';
+import '@/styles/components/eventos.css'
+
+
 
 export const Eventos = () => {
     const eventos = [
@@ -19,22 +22,17 @@ export const Eventos = () => {
     ];
 
     return (
-        <div className="home-page-events bg-gray-100 py-8">
-            <div className="container mx-auto">
-                <div className="text-center">
-                    <h2 className="text-3xl font-semibold mb-4">Eventos Recientes</h2>
-                </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    {eventos.map(evento => (
+        <div className="tag_eventos bg-neutral-50 py-8">
+       
+       {eventos.map(evento => (
                         <div key={evento.id} className="bg-white p-6 rounded-lg shadow-md">
                             <h3 className="text-xl font-semibold mb-2">{evento.titulo}</h3>
                             <p className="text-gray-600 mb-2">Fecha: {evento.fecha}</p>
                             <p className="text-gray-600 mb-2">Lugar: {evento.lugar}</p>
                             <p className="text-gray-800">{evento.descripcion}</p>
-                        </div>
-                    ))}
-                </div>
-            </div>
+                        </div>))}
+
+
         </div>
     );
 }

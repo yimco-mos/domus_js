@@ -2,15 +2,16 @@
     width: 100%;
     max-width: 1400px;
     padding: 1rem;
+    padding-top: 10%;
     justify-content: center;
     height: 100%0;
 }
 
 .tag_eventos{
-    width:700px ;
+    width:800px ;
     height: 600px;
     justify-content: center;
-  
+    padding-top: 1rem;
     margin: 0 auto;
 }
 

@@ -8,7 +8,7 @@ export const fundador_text = {
 };
 
 export const formulario_txt =
-  "A través de tu servicio de voluntariado darás apoyo a abuelas,mujeres vulnerables, niños, personas en recuperación de adicciones,habitantes de calle. Desde cualquier línea que elijas podrás serparte de un cambio de vida para muchas personas en condiciónvulnerable de nuestro territorio.";
+  "A través de tu servicio de voluntariado darás apoyo a abuelas,mujeres vulnerables, niños, personas en recuperación de adicciones,habitantes de calle. Desde cualquier línea que elijas podrás ser parte de un cambio de vida para muchas personas en condiciónvulnerable de nuestro territorio.";
 
 export const titulo_oracion_pobres =
   "ORACIÓN A LA VIRGEN DE LOS POBRES PATRONA FUNDACION DOMUS COLOMBIA";
